@@ -23,7 +23,7 @@ public class golGUI extends Application{
 		golComponents = createComponents();
 		Scene window = new Scene(golComponents, windowLength, windowLength);
 
-		tetromino4();
+		tetromino4(); //TYPE ONE OF THE FUNCTIONS BELOW TO GET A DIFFERENT STARTING SET ON THE BOARD.
 		Timer timer = new Timer();
 		Task maintask = new Task();
 		timer.schedule(maintask, 0, 100l); //EDIT 100L TO CHANGE THE TICKSPEED
