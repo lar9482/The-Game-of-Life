@@ -1,0 +1,8 @@
+This is my code of the Game of Life.
+I wrote this a few months ago and it definitely doesn't incorporate the best programming practices.
+
+Feel free to contact me if you have any trouble.
+
+Make sure you installed JDK and Javafx.
+
+golGUI.java is the driver file.
