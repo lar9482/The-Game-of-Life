@@ -14,7 +14,7 @@ import java.lang.Math;
 public class golGUI extends Application{
 	private Board game = new Board();
 	private Group golComponents;
-	private static final int cellSize = 8;
+	private static final int cellSize = 8; //EDIT THIS TO CHANGE THE CELLSIZES
 	private int numGrids = game.getGridSize();
 	private final int windowLength = numGrids*cellSize;
 
@@ -26,7 +26,7 @@ public class golGUI extends Application{
 		tetromino4();
 		Timer timer = new Timer();
 		Task maintask = new Task();
-		timer.schedule(maintask, 0, 100l);
+		timer.schedule(maintask, 0, 100l); //EDIT 100L TO CHANGE THE TICKSPEED
 
 		stage.setScene(window);
 		stage.show();	
