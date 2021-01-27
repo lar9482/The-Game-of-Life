@@ -1,0 +1,11 @@
+1. Set the environment variable PATH_TO_FX with the command:
+  
+   set PATH_TO_FX="C:\Program Files\Java\javafx-sdk-14.0.2.1\lib" 
+
+2. Compile the file with the command:
+
+   javac --module-path %PATH_TO_FX% --add-modules javafx.controls <File-Name>
+
+3. Run the file with the command:
+
+   java --module-path %PATH_TO_FX% --add-modules javafx.controls <File-Name>
